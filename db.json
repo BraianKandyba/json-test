@@ -1,9 +1,84 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "alumnos": [
+    {
+      "id": "1",
+      "firstName": "Sasuke",
+      "lastName": "Uchiha",
+      "email": "sa@mail.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "firstName": "Braian",
+      "lastName": "kandyba",
+      "email": "b@gmail.com",
+      "password": "AB123456"
+    },
+    {
+      "id": "9177",
+      "firstName": "mara",
+      "lastName": "gomez",
+      "email": "mara@gmail.com",
+      "password": "sdasdasd"
+    },
+    {
+      "id": "e4db",
+      "firstName": "julian",
+      "lastName": "gimenes",
+      "email": "julian@hotmail.com",
+      "password": "1234scd"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "cursos": [
+    {
+      "id": "3",
+      "name": "Programación",
+      "turno": "Noche",
+      "diasCursada": "Lunes y Viernes",
+      "fechaInicio": "2024-02-22"
+    },
+    {
+      "id": "739a",
+      "name": "Informatica",
+      "turno": "tarde",
+      "diasCursada": "martes y jueves",
+      "fechaInicio": "2024-08-01"
+    },
+    {
+      "id": "e669",
+      "name": "Base de Datos 1",
+      "turno": "mañana",
+      "diasCursada": "lunes y martes",
+      "fechaInicio": "2024-05-12"
+    },
+    {
+      "id": "0774",
+      "name": "Programación 2",
+      "turno": "noche",
+      "diasCursada": "martes y jueves",
+      "fechaInicio": "0204-02-23"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "inscripciones": [
+    {
+      "id": "1",
+      "usuarioId": "1",
+      "cursoId": "3"
+    },
+    {
+      "id": "2",
+      "usuarioId": "2",
+      "cursoId": "e669"
+    },
+    {
+      "id": "20d2",
+      "usuarioId": "1",
+      "cursoId": "0774"
+    },
+    {
+      "id": "caf1",
+      "usuarioId": "e4db",
+      "cursoId": "3"
+    }
+  ]
 }
