@@ -1,84 +1,630 @@
 {
-  "alumnos": [
-    {
-      "id": "1",
-      "firstName": "Sasuke",
-      "lastName": "Uchiha",
-      "email": "sa@mail.com",
-      "password": "123"
+    "artistas": [
+        {
+            "id": "1",
+            "img": "https://yt3.googleusercontent.com/TdqAR2sUCwDpU0X_oXNFNaCKBFpTplBw5va-7oKB47MhyadmQV00gB70p9SfO1kz3GnMBprzA8s=s900-c-k-c0x00ffffff-no-rj",
+            "nombre": "Trueno",
+            "desc": "Artista",
+            "canciones":[
+                {
+                    "titulo": "Mamichula",
+                    "artista": "Trueno",
+                    "duracion": "4:10"
+                },
+                {
+                    "titulo": "Atrevido",
+                    "artista": "Trueno",
+                    "duracion": "3:14"
+                },
+                {
+                    "titulo": "Rain II",
+                    "artista": "Trueno",
+                    "duracion": "2:35"
+                },
+                {
+                    "titulo": "Ñeri",
+                    "artista": "Trueno",
+                    "duracion": "3:20"
+                },
+                {
+                    "titulo": "Azul y Oro",
+                    "artista": "Trueno",
+                    "duracion": "3:08"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab6761610000e5ebb970a6d0f33428393c578f1a",
+            "nombre": "Duki",
+            "desc": "Artista",
+            "canciones":[
+                {
+                    "titulo": "Goteo",
+                    "artista": "Duki",
+                    "duracion": "2:54"
+                },
+                {
+                    "titulo": "She Don't Give a Fo",
+                    "artista": "Duki",
+                    "duracion": "3:29"
+                },
+                {
+                    "titulo": "H.I.E.L.O.",
+                    "artista": "Duki",
+                    "duracion": "3:32"
+                },
+                {
+                    "titulo": "Hablamos Mañana",
+                    "artista": "Duki",
+                    "duracion": "3:16"
+                },
+                {
+                    "titulo": "Paraíso",
+                    "artista": "Duki",
+                    "duracion": "2:57"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab6761610000e5ebb96d176a32b688569ea20884",
+            "nombre": "Luck Ra",
+            "desc": "Artista",
+            "canciones":[
+                {
+                    "titulo": "Hola Perdida",
+                    "artista": "Luck Ra & khea",
+                    "duracion": "3:09"
+                },
+                {
+                    "titulo": "Dame Más",
+                    "artista": "Luck Ra",
+                    "duracion": "2:56"
+                },
+                {
+                    "titulo": "Mil Preguntas",
+                    "artista": "Luck Ra & QLocura",
+                    "duracion": "3:13"
+                },
+                {
+                    "titulo": "Te Mentiria",
+                    "artista": "Luck Ra",
+                    "duracion": "3:01"
+                },
+                {
+                    "titulo": "Tan Lejos",
+                    "artista": "Luck Ra",
+                    "duracion": "2:47"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab6761610000e5eb9ad50e478a469448c6f369df",
+            "nombre": "Bad Bunny",
+            "desc": "Artista",
+            "canciones":[
+                {
+                    "titulo": "Safaera",
+                    "artista": "Bad Bunny",
+                    "duracion": "4:50"
+                },
+                {
+                    "titulo": "Vete",
+                    "artista": "Bad Bunny",
+                    "duracion": "3:23"
+                },
+                {
+                    "titulo": "Yo Perreo Sola",
+                    "artista": "Bad Bunny",
+                    "duracion": "3:29"
+                },
+                {
+                    "titulo": "DÁKITI (ft. Jhay Cortez)",
+                    "artista": "Bad Bunny",
+                    "duracion": "3:30"
+                },
+                {
+                    "titulo": "La Canción (ft. Jhay Cortez)",
+                    "artista": "Bad Bunny",
+                    "duracion": "3:19"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmffnJRDUZnFH36cnF-XAff5xtVXhicZtz3sTCCOCevuoAXs5YtMBZ99oL14O6mrheK-4&usqp=CAU",
+            "nombre": "Bizzarap",
+            "desc": "Artista",
+            "canciones":[
+                {
+                    "titulo": "Music Session #53 (ft. Quevedo)",
+                    "artista": "Bizarrap",
+                    "duracion": "3:18"
+                },
+                {
+                    "titulo": "Music Session #52 (ft. Duki)",
+                    "artista": "Bizarrap",
+                    "duracion": "3:14"
+                },
+                {
+                    "titulo": "Music Session #50 (ft. Nathy Peluso)",
+                    "artista": "Bizarrap",
+                    "duracion": "3:06"
+                },
+                {
+                    "titulo": "Music Session #41 (ft. Paulo Londra)",
+                    "artista": "Bizarrap",
+                    "duracion": "3:29"
+                },
+                {
+                    "titulo": "Music Session #36 (ft. KHEA)",
+                    "artista": "Bizarrap",
+                    "duracion": "3:03"
+                }
+            ]
+        }
+    ],
+
+    "listas": [
+        {
+            "id": "1",
+            "genero": "Rock Clásico",
+            "img": "https://i.scdn.co/image/ab67706f000000024a83d42ca84e63abc9413b5d",
+            "canciones": [
+                {
+                    "titulo": "Bohemian Rhapsody",
+                    "artista": "Queen",
+                    "duracion": "5:55"
+                },
+                {
+                    "titulo": "Hotel California",
+                    "artista": "Eagles",
+                    "duracion": "6:30"
+                },
+                {
+                    "titulo": "Stairway to Heaven",
+                    "artista": "Led Zeppelin",
+                    "duracion": "8:02"
+                },
+                {
+                    "titulo": "Smoke on the Water",
+                    "artista": "Deep Purple",
+                    "duracion": "5:40"
+                },
+                {
+                    "titulo": "Sweet Child o' Mine",
+                    "artista": "Guns N' Roses",
+                    "duracion": "5:56"
+                },
+                {
+                    "titulo": "Another Brick in the Wall, Pt. 2",
+                    "artista": "Pink Floyd",
+                    "duracion": "3:59"
+                },
+                {
+                    "titulo": "Born to Be Wild",
+                    "artista": "Steppenwolf",
+                    "duracion": "3:28"
+                },
+                {
+                    "titulo": "Free Bird",
+                    "artista": "Lynyrd Skynyrd",
+                    "duracion": "9:08"
+                },
+                {
+                    "titulo": "Layla",
+                    "artista": "Derek and the Dominos",
+                    "duracion": "7:04"
+                },
+                {
+                    "titulo": "Back in Black",
+                    "artista": "AC/DC",
+                    "duracion": "4:15"
+                }
+            ]
     },
     {
-      "id": "2",
-      "firstName": "Braian",
-      "lastName": "kandyba",
-      "email": "b@gmail.com",
-      "password": "AB123456"
+        "id": "2",
+        "genero": "Trap",
+        "img": "https://i.scdn.co/image/ab67706f00000002368ffeb73486b526173e9c93",
+        "canciones": [
+            {
+                "titulo": "Sicko Mode",
+                "artista": "Travis Scott",
+                "duracion": "5:12"
+            },
+            {
+                "titulo": "Rockstar",
+                "artista": "Post Malone ft. 21 Savage",
+                "duracion": "3:38"
+            },
+            {
+                "titulo": "Drip Too Hard",
+                "artista": "Lil Baby & Gunna",
+                "duracion": "2:25"
+            },
+            {
+                "titulo": "Life is Good",
+                "artista": "Future ft. Drake",
+                "duracion": "3:57"
+            },
+            {
+                "titulo": "Goosebumps",
+                "artista": "Travis Scott",
+                "duracion": "4:04"
+            },
+            {
+                "titulo": "Si Te Vas",
+                "artista": "Sech ft. Ozuna",
+                "duracion": "3:28"
+            },
+            {
+                "titulo": "Hasta Que Dios Diga",
+                "artista": "Anuel AA & Bad Bunny",
+                "duracion": "4:30"
+            },
+            {
+                "titulo": "Mask Off",
+                "artista": "Future",
+                "duracion": "3:24"
+            },
+            {
+                "titulo": "Pa Ti",
+                "artista": "Bad Bunny",
+                "duracion": "3:16"
+            },
+            {
+                "titulo": "Dákiti",
+                "artista": "Bad Bunny & Jhay Cortez",
+                "duracion": "3:25"
+            }
+        ]
+    },
+
+    {
+        "id": "3",
+        "genero": "Top Canciones Más Escuchadas",
+        "img": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg",
+        "canciones": [
+            {
+                "titulo": "Blinding Lights",
+                "artista": "The Weeknd",
+                "duracion": "3:20"
+            },
+            {
+                "titulo": "Shape of You",
+                "artista": "Ed Sheeran",
+                "duracion": "3:53"
+            },
+            {
+                "titulo": "Rockstar",
+                "artista": "Post Malone ft. 21 Savage",
+                "duracion": "3:38"
+            },
+            {
+                "titulo": "Dance Monkey",
+                "artista": "Tones and I",
+                "duracion": "3:29"
+            },
+            {
+                "titulo": "Someone You Loved",
+                "artista": "Lewis Capaldi",
+                "duracion": "3:02"
+            },
+            {
+                "titulo": "Sunflower",
+                "artista": "Post Malone, Swae Lee",
+                "duracion": "2:38"
+            },
+            {
+                "titulo": "Senorita",
+                "artista": "Shawn Mendes, Camila Cabello",
+                "duracion": "3:11"
+            },
+            {
+                "titulo": "Bad Guy",
+                "artista": "Billie Eilish",
+                "duracion": "3:14"
+            },
+            {
+                "titulo": "Perfect",
+                "artista": "Ed Sheeran",
+                "duracion": "4:23"
+            },
+            {
+                "titulo": "Levitating",
+                "artista": "Dua Lipa",
+                "duracion": "3:24"
+            }
+        ]
     },
     {
-      "id": "9177",
-      "firstName": "mara",
-      "lastName": "gomez",
-      "email": "mara@gmail.com",
-      "password": "sdasdasd"
+        "id": "4",
+        "genero": "Rap",
+        "img": "https://i.scdn.co/image/ab67616d0000b27360ccd0943baef8046247defb",
+        "canciones": [
+            {
+                "titulo": "Sicko Mode",
+                "artista": "Travis Scott",
+                "duracion": "5:12"
+            },
+            {
+                "titulo": "God's Plan",
+                "artista": "Drake",
+                "duracion": "3:19"
+            },
+            {
+                "titulo": "HUMBLE.",
+                "artista": "Kendrick Lamar",
+                "duracion": "2:57"
+            },
+            {
+                "titulo": "ROCKSTAR",
+                "artista": "Post Malone ft. 21 Savage",
+                "duracion": "3:38"
+            },
+            {
+                "titulo": "Lose Yourself",
+                "artista": "Eminem",
+                "duracion": "5:26"
+            },
+            {
+                "titulo": "The Box",
+                "artista": "Roddy Ricch",
+                "duracion": "3:16"
+            },
+            {
+                "titulo": "Old Town Road - Remix",
+                "artista": "Lil Nas X ft. Billy Ray Cyrus",
+                "duracion": "2:38"
+            },
+            {
+                "titulo": "Hotline Bling",
+                "artista": "Drake",
+                "duracion": "4:27"
+            },
+            {
+                "titulo": "Bodak Yellow",
+                "artista": "Cardi B",
+                "duracion": "3:44"
+            },
+            {
+                "titulo": "Money Trees",
+                "artista": "Kendrick Lamar ft. Jay Rock",
+                "duracion": "6:26"
+            }
+        ]
     },
     {
-      "id": "e4db",
-      "firstName": "julian",
-      "lastName": "gimenes",
-      "email": "julian@hotmail.com",
-      "password": "1234scd"
+        "id": "5",
+        "genero": "Pop",
+        "img": "https://i.scdn.co/image/ab67616d0000b273d48b3ca7ced155aa46324088",
+        "canciones": [
+            {
+                "titulo": "Blinding Lights",
+                "artista": "The Weeknd",
+                "duracion": "3:20"
+            },
+            {
+                "titulo": "Levitating",
+                "artista": "Dua Lipa",
+                "duracion": "3:23"
+            },
+            {
+                "titulo": "Watermelon Sugar",
+                "artista": "Harry Styles",
+                "duracion": "2:54"
+            },
+            {
+                "titulo": "Shape of You",
+                "artista": "Ed Sheeran",
+                "duracion": "3:53"
+            },
+            {
+                "titulo": "Peaches",
+                "artista": "Justin Bieber ft. Daniel Caesar, Giveon",
+                "duracion": "3:18"
+            },
+            {
+                "titulo": "Bad Guy",
+                "artista": "Billie Eilish",
+                "duracion": "3:14"
+            },
+            {
+                "titulo": "Dance Monkey",
+                "artista": "Tones And I",
+                "duracion": "3:29"
+            },
+            {
+                "titulo": "Señorita",
+                "artista": "Shawn Mendes & Camila Cabello",
+                "duracion": "3:10"
+            },
+            {
+                "titulo": "Don't Start Now",
+                "artista": "Dua Lipa",
+                "duracion": "3:03"
+            },
+            {
+                "titulo": "Positions",
+                "artista": "Ariana Grande",
+                "duracion": "2:52"
+            }
+        ]
     }
-  ],
-  "cursos": [
-    {
-      "id": "3",
-      "name": "Programación",
-      "turno": "Noche",
-      "diasCursada": "Lunes y Viernes",
-      "fechaInicio": "2024-02-22"
-    },
-    {
-      "id": "739a",
-      "name": "Informatica",
-      "turno": "tarde",
-      "diasCursada": "martes y jueves",
-      "fechaInicio": "2024-08-01"
-    },
-    {
-      "id": "e669",
-      "name": "Base de Datos 1",
-      "turno": "mañana",
-      "diasCursada": "lunes y martes",
-      "fechaInicio": "2024-05-12"
-    },
-    {
-      "id": "0774",
-      "name": "Programación 2",
-      "turno": "noche",
-      "diasCursada": "martes y jueves",
-      "fechaInicio": "0204-02-23"
-    }
-  ],
-  "inscripciones": [
-    {
-      "id": "1",
-      "usuarioId": "1",
-      "cursoId": "3"
-    },
-    {
-      "id": "2",
-      "usuarioId": "2",
-      "cursoId": "e669"
-    },
-    {
-      "id": "20d2",
-      "usuarioId": "1",
-      "cursoId": "0774"
-    },
-    {
-      "id": "caf1",
-      "usuarioId": "e4db",
-      "cursoId": "3"
-    }
-  ]
+    ],
+    
+    "albunes":[
+        {
+            "id": "1",
+            "genero": "un verano sin ti",
+            "img": "https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
+            "canciones": [
+                {
+                    "titulo": "Moscow Mule",
+                    "artista": "Bad Bunny",
+                    "duracion": "4:01"
+                },
+                {
+                    "titulo": "Despues Dela Playa",
+                    "artista": "Bad Bunny",
+                    "duracion": "3:58"
+                },
+                {
+                    "titulo": "Party",
+                    "artista": "Bad Bunny & Jhay Cortez",
+                    "duracion": "4:10"
+                },
+                {
+                    "titulo": "Basket Case",
+                    "artista": "Green Day",
+                    "duracion": "3:02"
+                },
+                {
+                    "titulo": "Black Hole Sun",
+                    "artista": "Soundgarden",
+                    "duracion": "5:18"
+                },
+                {
+                    "titulo": "Lightning Crashes",
+                    "artista": "Live",
+                    "duracion": "5:25"
+                },
+                {
+                    "titulo": "Interstate Love Song",
+                    "artista": "Stone Temple Pilots",
+                    "duracion": "3:14"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "genero": "Los Angeles Azules",
+            "img": "https://i.scdn.co/image/ab67616d00001e023616f5d3c8e4e13081d14bde",
+            "canciones": [
+                {
+                    "titulo": "Billie Jean",
+                    "artista": "Michael Jackson",
+                    "duracion": "4:54"
+                },
+                {
+                    "titulo": "Like a Prayer",
+                    "artista": "Madonna",
+                    "duracion": "5:43"
+                },
+                {
+                    "titulo": "Shape of You",
+                    "artista": "Ed Sheeran",
+                    "duracion": "3:53"
+                },
+                {
+                    "titulo": "Rolling in the Deep",
+                    "artista": "Adele",
+                    "duracion": "3:48"
+                },
+                {
+                    "titulo": "Blinding Lights",
+                    "artista": "The Weeknd",
+                    "duracion": "3:20"
+                },
+                {
+                    "titulo": "Uptown Funk",
+                    "artista": "Mark Ronson ft. Bruno Mars",
+                    "duracion": "4:30"
+                },
+                {
+                    "titulo": "Firework",
+                    "artista": "Katy Perry",
+                    "duracion": "3:48"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "genero": "Beerbongs & Bentleys",
+            "img": "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268",
+            "canciones": [
+                {
+                    "titulo": "Lose Yourself",
+                    "artista": "Eminem",
+                    "duracion": "5:20"
+                },
+                {
+                    "titulo": "Juicy",
+                    "artista": "The Notorious B.I.G.",
+                    "duracion": "5:02"
+                },
+                {
+                    "titulo": "N.Y. State of Mind",
+                    "artista": "Nas",
+                    "duracion": "4:54"
+                },
+                {
+                    "titulo": "HUMBLE.",
+                    "artista": "Kendrick Lamar",
+                    "duracion": "2:57"
+                },
+                {
+                    "titulo": "Stronger",
+                    "artista": "Kanye West",
+                    "duracion": "5:12"
+                },
+                {
+                    "titulo": "Alright",
+                    "artista": "Kendrick Lamar",
+                    "duracion": "3:39"
+                },
+                {
+                    "titulo": "99 Problems",
+                    "artista": "Jay-Z",
+                    "duracion": "3:55"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "genero": "Justice",
+            "img": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+            "canciones": [
+                {
+                    "titulo": "Strobe",
+                    "artista": "Deadmau5",
+                    "duracion": "10:37"
+                },
+                {
+                    "titulo": "Animals",
+                    "artista": "Martin Garrix",
+                    "duracion": "5:03"
+                },
+                {
+                    "titulo": "Titanium",
+                    "artista": "David Guetta ft. Sia",
+                    "duracion": "4:05"
+                },
+                {
+                    "titulo": "Wake Me Up",
+                    "artista": "Avicii",
+                    "duracion": "4:09"
+                },
+                {
+                    "titulo": "Levels",
+                    "artista": "Avicii",
+                    "duracion": "5:38"
+                },
+                {
+                    "titulo": "Clarity",
+                    "artista": "Zedd ft. Foxes",
+                    "duracion": "4:31"
+                },
+                {
+                    "titulo": "Don't You Worry Child",
+                    "artista": "Swedish House Mafia",
+                    "duracion": "3:32"
+                }
+            ]
+        }
+
+    ]
 }
